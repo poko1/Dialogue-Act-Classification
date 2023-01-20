@@ -24,7 +24,7 @@ To run this code, you need following dependencies
 ## Dialogue Act Classification:
 In Dialogue_Act_Classification folder, run <code>sbatch bert.sh</code> to use bert-based model and run <code>python svm.py</code> to use SVM model
 ## Data Augmentation (Low-data regime experiment):
-Run <code>src/utils/download_and_prepare_datasets.sh</code> file to prepare all datsets. For a given dataset, it creates 15 random splits of train and dev data.
+Run <code>src/utils/download_and_prepare_acts.sh</code> file to prepare all datsets. For a given dataset, it creates 15 random splits of train and dev data.
 To run data augmentation experiment for a given dataset, run bash script in scripts folder. For example: to run eda data augmentation,
 run <code>scripts/bert_trec_eda.sh</code>
 
