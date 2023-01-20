@@ -6,8 +6,7 @@ This is part of my Master's Thesis on applying data augmentation techniques for 
 
 Then we curate a dataset with 24k user utterances (Dialogue_Act_Classification/train_da_10.csv and Dialogue_Act_Classification/test_da_10.csv) and annotate them with the proposed dialogue acts. We then train two models (baseline SVM and finetuned Bert) on the train dataset and achieve an accuracy rate of 97% and 99% respectively. To show the our model generalizes well on datasets created from completely unseen sources, we create a new test dataset (Dialogue_Act_Classification/dialogrando.csv). Upon running our trained models on this new test dataset, we still achieve an accuracy of 86% (SVM) and 96% (BERT). Thus proving that our models are actually learning the features from the training dataset and not memorizing the data itself.  
 
-
-![bert_new_old_gf_8_](https://user-images.githubusercontent.com/42430946/213807579-d0de09f5-ddff-492c-bf92-3f7c293e9bad.jpg) ![svm_new_and_old_gf_8](https://user-images.githubusercontent.com/42430946/213807646-71eace8b-6cf6-40c0-b2d4-a31e9cffdcda.jpg)
+![bert_new_old_gf_8_](https://user-images.githubusercontent.com/42430946/213808341-05c9659b-ef8f-497e-a87d-a1a4b6587b46.jpg)
 
 To try to improve the accuracy rate of our baseline model for the two minority classes: Greeting and Apology by using text augmentation techniques. We used EDA (Synonym Replacement, Random Deletion of Word, Random Insertion of Word, Random Swap between two words) as well as Backtranslation (Translating existing example from English to German and then back to English) to generate and new examples for the Greeting and Apology classes from the existing examples and added them to the training data. Upon training our model with the newly added augmented dataset, we saw an increase in accuracy for both the classes.
 
