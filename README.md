@@ -21,13 +21,10 @@ To run this code, you need following dependencies
 - transformers 2.9
 
 # How to Run:
-Dialogue Act Classification:
-Run sbatch <code>bert.sh</code> to use bert-based model
-Run python svm.py to use SVM model
-Data Augmentation (Low-data regime experiment):
-Run src/utils/download_and_prepare_datasets.sh file to prepare all datsets.
-For a given dataset, it creates 15 random splits of train and dev data.
-
+## Dialogue Act Classification:
+In Dialogue_Act_Classification folder, run <code>sbatch bert.sh</code> to use bert-based model and run <code>python svm.py</code> to use SVM model
+## Data Augmentation (Low-data regime experiment):
+Run <code>src/utils/download_and_prepare_datasets.sh</code> file to prepare all datsets. For a given dataset, it creates 15 random splits of train and dev data.
 To run data augmentation experiment for a given dataset, run bash script in scripts folder. For example: to run eda data augmentation,
-run scripts/bert_trec_eda.sh
+run <code>scripts/bert_trec_eda.sh</code>
 
