@@ -2,7 +2,7 @@
 
 This is part of my Master's Thesis on applying data augmentation techniques for improving dialogue act detection in chatbots. Dialogue act classification is the task of classifying an utterance with respect to the function it serves in a dialogue. Based on literature surveys and how our users correspond with two of out chatbots- MIRA and ANA, we first propose a dialogue act scheme with 8 dialogue acts:
 
-
+![da](https://user-images.githubusercontent.com/42430946/213807350-8e70e9bd-f461-49f4-badd-4f743ab301db.PNG)
 
 Then we curate a corresponding dataset with 24k user utterances (Dialogue_Act_Classification/train_da_10.csv and Dialogue_Act_Classification/test_da_10.csv). We then train two models (baseline SVM and finetuned Bert) on the train dataset and achieve an accuracy rate of 97% and 99% respectively. To show the our model generalizes well on datasets created from completely unseen sources, we create a new test dataset (Dialogue_Act_Classification/dialogrando.csv). Upon running our trained models on this new test dataset, we still achieve an accuracy of 86% (SVM) and 96% (BERT). Thus proving that our models are actually learning the features from the training dataset and not memorizing the data itself.  
 
