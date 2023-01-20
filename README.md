@@ -22,7 +22,7 @@ To run this code, you need following dependencies
 
 # How to Run:
 Dialogue Act Classification:
-Run sbatch bert.sh to use bert-based model
+Run sbatch <code>bert.sh</code> to use bert-based model
 Run python svm.py to use SVM model
 Data Augmentation (Low-data regime experiment):
 Run src/utils/download_and_prepare_datasets.sh file to prepare all datsets.
