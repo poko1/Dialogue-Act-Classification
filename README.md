@@ -1,6 +1,6 @@
 # Improving Dialogue Act Classification with Text Augmentation Techniques
 
-This is part of my Master's Thesis on applying data augmentation techniques for improving dialogue act detection in chatbots. Dialogue act classification is the task of classifying an utterance with respect to the function it serves in a dialogue. Based on literature surveys and how our users correspond with two of out chatbots- MIRA and ANA, we first propose a dialogue act scheme with 8 dialogue acts:
+This is part of my Master's Thesis on applying data augmentation techniques for improving dialogue act detection in AI chatbots. Dialogue act classification is the task of classifying an utterance with respect to the function it serves in a dialogue. Based on literature surveys and how our users correspond with two of the AI chatbots we have developed- MIRA and ANA, we first propose a dialogue act scheme with 8 dialogue acts:
 
 ![da](https://user-images.githubusercontent.com/42430946/213807350-8e70e9bd-f461-49f4-badd-4f743ab301db.PNG)
 
